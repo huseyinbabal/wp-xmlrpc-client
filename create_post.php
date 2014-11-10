@@ -1,7 +1,7 @@
 <?php
 include "WPXMLRPClient.php";
 
-$client = new WPXMLRPClient("http://104.131.45.56/wordpress/xmlrpc.php", "wordpress", "howareyou");
+$client = new WPXMLRPClient("http://...../wordpress/xmlrpc.php", "", "");
 
 $res = $client->create_post(
     "How to create post via XML-RPC 1",
